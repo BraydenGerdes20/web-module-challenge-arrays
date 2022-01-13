@@ -50,7 +50,7 @@ function copy(array){
   //spread opporater
 }    
 
-console.log('task 1',copy(originalFlavors));
+
 
 
 
@@ -73,7 +73,6 @@ else{
   return false;
 }
 }
-console.log(is31Flavors(originalFlavors));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Corporate has come to you with an idea for a new flavor: Rainbow Sherbert! They think this will be a game changer. You need to modify the array to include this flavor. 
@@ -93,7 +92,7 @@ function addFlavor(array, flavor){
  array.unshift(flavor);
  return array;
 }
-console.log(addFlavor(originalFlavors, 'Rainbow Sherbert'));
+
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Houston, we have a problem! There are now 32 flavors in the originalFlavors array! Your task is to remove an item from the end of the array. 
 
@@ -109,7 +108,7 @@ function removeLastFlavor(array){
  array.pop()
  return array;
 }
-console.log(removeLastFlavor(originalFlavors));
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -126,7 +125,7 @@ Use the getFlavorByIndex function below to do the following:
 function getFlavorByIndex(array, index){
   return array[index];
 }
-console.log(getFlavorByIndex(originalFlavors, 2));
+
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 As corporate wants to add more and more flavors to their lineup, they've realized that they need to remove flavors based on flavor name, 
@@ -156,7 +155,7 @@ function removeFlavorByName(array, item){
   // for loop through array 
   // === the given flavor and if does remove it
   // outside loop return 
-console.log(removeFlavorByName(originalFlavors, "Rocky Road"));
+
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -188,7 +187,7 @@ function filterByWord(array, item){
   }
   return filturedArray;
 }
-console.log(filterByWord(originalFlavors, "Chocolate"));
+
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
 
 /* STRETCH 1: Write a function that returns the average number of words in an array. You should be able to use this function for any array, but can test with originalFlavors.
